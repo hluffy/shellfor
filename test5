@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for test in `ls`
+do
+	echo "the dir have $test file"
+done

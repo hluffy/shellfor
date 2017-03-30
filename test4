@@ -1,0 +1,8 @@
+#!/bin/bash
+
+list="AlabamaAlaska Arizona Arkansas Colorado"
+list=$list" Connecticut"
+for test in $list
+do
+	echo "Have you ever visited $test?"
+done
